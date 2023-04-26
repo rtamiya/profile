@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #3e68ad;
+  line-height: 16px;
+  background-image: linear-gradient(180deg, #dfe8ee 0%, #cad7f7 100%);
+  height: 100vh;
+}
+
+h1 {
+  color: #5588e0;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+h2 {
+  color: #5588e0;
+  font-size: 24px;
+}
+
+a {
+  color: #576F72;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #088395;
+  text-decoration: underline;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #F9F7F6;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
