@@ -92,5 +92,6 @@ a:hover {
   background-color: #3e68ad;
   color: white;
   padding: 12px 20px;
-  transition: 0.5s
+  transition: 0.5s;
+  text-decoration: none;
 }
