@@ -21,12 +21,12 @@ h2 {
 }
 
 a {
-  color: #576F72;
+  color: #a5d3da;
   text-decoration: none;
 }
 
 a:hover {
-  color: #088395;
+  color: #737676;
   text-decoration: underline;
 }
 
@@ -86,4 +86,11 @@ a:hover {
   padding: 12px 20px;
   border-radius: 4px;
   line-height: 32px;
+}
+
+.btn-blue:hover {
+  background-color: #3e68ad;
+  color: white;
+  padding: 12px 20px;
+  transition: 0.5s
 }
